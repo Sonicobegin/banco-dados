@@ -1,8 +1,13 @@
 # Modelagem do Banco de Dados
 Repositório para modelagem do banco de dados
-
+<h2>Modelo <mark>Lógico</mark></h2>
 <div align="center">
   <img src="avaliacao.L.png"/>
+</div>
+<br/>
+<h2>Modelo <mark>Conceitual <mark/></h2>
+<div align="center">
+  <img src="avaliacao.C.png"/>
 </div>
 <h2>Tabela <i>Alunos</i></h2>
 A tabela <i>alunos</i> descreve dentro no modelo relacional elaborado, onde e quais atributos iremos manter no banco
