@@ -34,7 +34,7 @@ Nela possuímos os atributos/colunas:
   <li>Nome: nome do professor</li>
   <li>Endereço:local onde reside o professor </li>
   <li>Cidade: cidade onde mora</li>
-  <li>fk_historico_MAT:chave estrangeira que faz referência a tabela <i>histroico</></li>
+  <li>fk_historico_MAT:chave estrangeira que faz referência a tabela <i>historico</></li>
  </ul>
  
 <h2>Tabela <i>Turma</i></h2>
@@ -43,10 +43,10 @@ Nela possuímos os atributos/colunas:
 <ul>
   <li>COD_DISC: chave primária da tabela <i></i></li>
   <li>COD_TURMA: identificador da turma <i></i> </li>
-  <li>COD_PROF: chave primária da tabela <i></i></li>
+  <li>COD_PROF: chave estrangeira que faz referencia a tabela professores(cod_prof)<i></i></li>
   <li>ANO: série da turma <i></i></li>
   <li>Horario: horario de entrada e saída <i></i></li>
-  <li>fk_historico_MAT: chave estrangeira que faz referência a tabela <i></i></li>
+  <li>fk_historico_MAT: chave estrangeira que faz referência a tabela historico<i></i></li>
 </ul>
 
 <h2>Tabela <i>Historico</i></h2>
