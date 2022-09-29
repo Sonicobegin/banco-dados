@@ -38,20 +38,28 @@ Nela possuímos os atributos/colunas:
  </ul>
  
 <h2>Tabela <i>Turma</i></h2>
-Tabela <i></i> com as informações sobre a turma </i></i> <i></i>.
+Tabela <i>turma</i> com as informações sobre a turma </i></i> <i></i>.
 Nela possuímos os atributos/colunas:
 <ul>
-  <li>COD_DISC: chave estrangeira que faz referência a tabela <i>instituicoes</i></li>
-  <li>COD_TURMA: chave estrangeira que faz referência a tabel <i>orgao</i> </li>
+  <li>COD_DISC: chave primária da tabela <i></i></li>
+  <li>COD_TURMA: identificador da turma <i></i> </li>
+  <li>COD_PROF: chave primária da tabela <i></i></li>
+  <li>ANO: série da turma <i></i></li>
+  <li>Horario: horario de entrada e saída <i></i></li>
+  <li>fk_historico_MAT: chave estrangeira que faz referência a tabela <i></i></li>
 </ul>
 
-<h2>Tabela <i>forum</i></h2>
-Tabela <i>forum</i> nesta tabela tivemos a ideia para que a comunidade do sistema a ser desenvolvido pudessem ter a possibilidade
-de compartilhar dúvidas e manter tópicos de perguntas e respostas associadas aos usuários que fizerem.
+<h2>Tabela <i>Historico</i></h2>
+Tabela <i>historico</i> nesta tabela colocamos todo o historico do aluno.
 Nela possuímos os atributos/colunas:
 <ul>
-  <li>topico: onde o usuário poderá criar um tópico sobre determinado tema ou dúvida</li>
-  <li>comentario: onde os usários poderão comentar sobre os tópicos criados</li>
+  <li>MAT:chave primária da tabela </li>
+  <li>COD_DISC:identificador de disciplina <i></i></li>
+  <li>COD_TURMA:identificador da turma <i></i> </li>
+  <li>COD_PROF:identificador do professor(a) <i></i></li>
+  <li>ANO: série do aluno <i></i></li>
+  <li>frequencia:frequencia com que o aluno está indo as aulas<i></i></li>
+  <li>nota:nota do aluno<i></i></li>
 </ul>
 
 
