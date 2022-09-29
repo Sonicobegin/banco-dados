@@ -37,12 +37,12 @@ Nela possuímos os atributos/colunas:
   <li>fk_historico_MAT:chave estrangeira que faz referência a tabela <i>histroico</></li>
  </ul>
  
-<h2>Tabela <i>recebe</i></h2>
-Tabela <i>recebe</i> tabela de ligação entre as tabelas </i>orgao</i> e <i>instituicoes</i>.
+<h2>Tabela <i>Turma</i></h2>
+Tabela <i></i> com as informações sobre a turma </i></i> <i></i>.
 Nela possuímos os atributos/colunas:
 <ul>
-  <li>fk_instituicoes_cod_instituicao: chave estrangeira que faz referência a tabela <i>instituicoes</i></li>
-  <li>fk_orgao_cod_orgao: chave estrangeira que faz referência a tabel <i>orgao</i> </li>
+  <li>COD_DISC: chave estrangeira que faz referência a tabela <i>instituicoes</i></li>
+  <li>COD_TURMA: chave estrangeira que faz referência a tabel <i>orgao</i> </li>
 </ul>
 
 <h2>Tabela <i>forum</i></h2>
@@ -54,10 +54,4 @@ Nela possuímos os atributos/colunas:
   <li>comentario: onde os usários poderão comentar sobre os tópicos criados</li>
 </ul>
 
-<h2>Tabela <i>admin</i></h2>
-Tabela <i>admin</i> nesta tabela o intuito é criar um superusuario pré cadastrado no banco onde poderá fazer todas as alterações no sistema.
-Nela possuímos os atributos/colunas:
-<ul>
-  <li>login: para o superusuario</li>
-  <li>senha: senha de acesso ao sistema</li>
-</ul>
+
