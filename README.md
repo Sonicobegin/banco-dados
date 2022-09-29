@@ -11,8 +11,8 @@ Nela possuímos os atributos/colunas:
 <ul>
   <li>MAT: chave primária da tabela</li>
   <li>Nome: nome do aluno.</li>
-  <li>Endereço: local onde mora o aluno</li>
-  <li>Cidade: cidade onde reside</li>
+  <li>Endereço: local onde reside o aluno</li>
+  <li>Cidade: cidade onde mora</li>
   <li>fk_historico_MAT: chave estrangeira que faz referência a tabela <i>historico</i></li>
 </ul>
 
@@ -21,23 +21,20 @@ A tabela <i>disciplina</i> será na nossa base de dados a responsável por mante
 Nela possuímos os atributos/colunas:
 <ul>
   <li>COD_DISC: chave primária da tabela</li>
-  <li>nome: nome da materia</li>
-  <li>data_nascimento: coluna importante para futuramente saber as faixas etárias</li>
-  <li>telefone: informação para contato</li>
-  <li>cidade: informação importante juntamente com cep para elaborar mapas de regiões</li>
-  <li>cep: coleta de informações com APIs</li>
-  <li>doador e receptor: colunas onde o usuário poderá guardar se deseja ou não ser doador</li>
-</ul>
+  <li>Nome_DISC: nome da materia</li>
+  <li>Carga_hor: horario das aulas</li>
+  <li>fk_historico_MAT:chave estrangeira que faz referência a tabela <i>historico</i></li>
+  </ul>
 
-<h2>Tabela <i>Instituições</i></h2>
-Tabela <i>instituicoes</i> aqui teremos na nossa base informações sobre as instituições que recebem e realizam o processo de transplantes.
+<h2>Tabela <i>Professores</i></h2>
+Tabela de <i>professores</i> aqui teremos na nossa base informações sobre os professores.
 Nela possuímos os atributos/colunas:
 <ul>
-  <li>cod_instituicao: chave primária da tabela</li>
-  <li>nome: nome da instituição: Hospital São Camilo, IJF e etc.</li>
-  <li>telefone: para contatos</li>
-  <li>cidade: informação importante juntamente com cep para elaborar mapas de regiões</li>
-  <li>cep: coleta de informações com APIs</li>
+  <li>COD_PROF: chave primária da tabela</li>
+  <li>Nome: nome do professor</li>
+  <li>Endereço:local onde reside o professor </li>
+  <li>Cidade: cidade onde mora</li>
+  <li>fk_historico_MAT:chave estrangeira que faz referência a tabela <i>histroico</></li>
  </ul>
  
 <h2>Tabela <i>recebe</i></h2>
